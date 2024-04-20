@@ -1,5 +1,8 @@
 # open-coding
 
+Checkout the application design on this [link](https://www.figma.com/file/XeA13BVatDQUt5ogIdN4kk/Answers-%26-Questions-(Q%26A)-(Community)?type=design&node-id=0-1&mode=design&t=NR46MJDkeytd2mNh-0).
+
+
 ## Question & Answer
 
 > User should be able to ask a question 
