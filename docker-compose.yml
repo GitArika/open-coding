@@ -1,4 +1,12 @@
 services:
+  mongodb:
+      image: mongo
+      restart: always
+      environment:
+        MONGO_INITDB_ROOT_USERNAME: docker
+        MONGO_INITDB_ROOT_PASSWORD: dockerpwd
+      ports:
+        - 27017:27017
   app:
     build: .
     image: nodejs_lts_iron:latest
@@ -8,3 +16,5 @@ services:
     tty: true
     ports:
       - "3333:3333"
+    depends_on:
+      - mongodb
