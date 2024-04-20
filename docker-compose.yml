@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: nodejs_lts_iron:latest
+    restart: always
+    environment: 
+      NODE_ENV: development
+    tty: true
+    ports:
+      - "3333:3333"
