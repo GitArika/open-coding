@@ -18,6 +18,7 @@ Checkout the application design on this [link](https://www.figma.com/file/XeA13B
 
 - Nodejs & typescript 
 - Docker
+- React
 
 # TODO: 
 
